@@ -1,0 +1,27 @@
+body{
+  background-color:burlywood;
+  color: black;
+  padding: 0 10px 20px;
+  margin-top: 150px;
+}
+
+nav{
+  text-align: center;
+  border-bottom-width: 2px;
+  border-bottom: 2px solid green;
+  padding: 10px;
+  margin-right: 2px;
+  margin-bottom: 15px;
+  background-color: thistle;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+
+}
+
+#body{
+  padding: 0 10px 20px;
+  height: 2000px;
+}
+
