@@ -2,10 +2,7 @@ body{
   background-color:burlywood;
   color: black;
   padding: 0 10px 20px;
-  padding-top: 55px;
-  overflow: hidden;
-  /* overflow-x: hidden; can be used */
-  /* overflow-y: hidden; can be used */
+  margin-top: 150px;
 }
 
 nav{
@@ -58,6 +55,3 @@ nav{
   background-color: aquamarine;
   z-index: 0;
 }
-
-
-
