@@ -45,14 +45,6 @@ nav{
   left: 25px;
 }
 
-.float{
-  float: left;
-  width: 150px;
-  height: auto;
-}
-
-left{float: left;}
-
 .rel {
   position: relative;
   display: inline-block;
@@ -62,7 +54,3 @@ left{float: left;}
   background-color: aquamarine;
   z-index: 0;
 }
-
-right{float: right;}
-
-
