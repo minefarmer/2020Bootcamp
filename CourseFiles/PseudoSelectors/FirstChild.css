@@ -1,0 +1,19 @@
+nav{
+  text-align: center;
+  border-bottom: 2px solid green;
+  padding: 10px;
+  margin-right: 2px;
+  margin-bottom: 15px;
+  background-color: thistle;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+/* Keep above this line */
+
+p.child:first-child{
+  background-color: black;
+  color: wheat;
+  
+}

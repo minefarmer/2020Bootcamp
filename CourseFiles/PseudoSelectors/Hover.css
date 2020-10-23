@@ -1,5 +1,5 @@
 body{
-  background-color: bisque;
+  background-color:burlywood;
   color: black;
   padding: 0 10px 20px;
   margin-top: 150px;
@@ -8,10 +8,6 @@ body{
 #body{
   padding: 0 10px 20px;
   height: 1000px;
-}
-
-hr{
-  color: red;
 }
 
 nav{
@@ -26,24 +22,17 @@ nav{
   top: 0;
   right: 0;
 }
-
 /* Keep above this line */
 
-
-input:disabled{
-  background-color: green;
-  border: 2px solid red;
-  opacity: 0.25px;
+[website="arkmont.com"]{
+  display: inline-block;
+  width: 300px; 
+  height: 300px;
+  background-color: blue; 
+  border: 3px solid red;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+[website="arkmont.com"]:hover{
+  background-color: black;
+  border-color: yellow;
+}

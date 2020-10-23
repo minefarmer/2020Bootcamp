@@ -1,5 +1,5 @@
 body{
-  background-color: bisque;
+  background-color:burlywood;
   color: black;
   padding: 0 10px 20px;
   margin-top: 150px;
@@ -10,12 +10,9 @@ body{
   height: 1000px;
 }
 
-hr{
-  color: red;
-}
-
 nav{
   text-align: center;
+  border-bottom-width: 2px;
   border-bottom: 2px solid green;
   padding: 10px;
   margin-right: 2px;
@@ -26,24 +23,3 @@ nav{
   top: 0;
   right: 0;
 }
-
-/* Keep above this line */
-
-
-input:disabled{
-  background-color: green;
-  border: 2px solid red;
-  opacity: 0.25px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
