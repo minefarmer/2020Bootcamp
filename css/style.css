@@ -29,17 +29,3 @@ nav{
 
 /* Keep above this line */
 
-.para:not(.graph){
-  background-color: black;
-  display: none;
-} 
-
-.blue {color: blue;}
-
-.red {color: red;}
-.purple {color: purple;}
-
-.color:not(.red):not(.purple){
-  color: green;
-}
-

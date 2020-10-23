@@ -1,0 +1,74 @@
+body{
+  background-color: bisque;
+  color: black;
+  padding: 0 10px 20px;
+  margin-top: 150px;
+}
+
+#body{
+  padding: 0 10px 20px;
+  height: 1000px;
+}
+
+hr{
+  color: rebeccapurple;
+}
+
+nav{
+  text-align: center;
+  border-bottom: 2px solid green;
+  padding: 10px;
+  margin-right: 2px;
+  margin-bottom: 15px;
+  background-color: thistle;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+/* Keep above this line */
+
+/* .block{
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  position: relative;
+}
+
+.block:hover::before{
+  display: inline-block;
+  content: ' Hi, My name is Rich. ';
+  color: #fff;
+  background-color: black;
+  position: absolute;
+  left: -200px;
+  top: 0;
+  width: 200px;
+  height: 200px;
+} */
+
+
+.block{
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 50px auto;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  position: relative;
+}
+
+.block:hover::before{
+  display: inline-block;
+  content: ' ';
+  color: #fff;
+  background-color: #8c1515;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  width: 200px;
+  height: 200px;
+  z-index: -1;
+}
