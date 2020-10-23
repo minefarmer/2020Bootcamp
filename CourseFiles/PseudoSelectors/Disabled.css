@@ -11,7 +11,7 @@ body{
 }
 
 hr{
-  color: rebeccapurple;
+  color: red;
 }
 
 nav{
@@ -29,17 +29,9 @@ nav{
 
 /* Keep above this line */
 
-.para:not(.graph){
+.disabled,
+input:disabled{
   background-color: black;
-  display: none;
-} 
-
-.blue {color: blue;}
-
-.red {color: red;}
-.purple {color: purple;}
-
-.color:not(.red):not(.purple){
-  color: green;
+  border: 2px solid red;
+  opacity: 0.25px;
 }
-
