@@ -1,0 +1,44 @@
+body{
+  background-color: bisque;
+  color: black;
+  padding: 0 10px 20px;
+  margin-top: 150px;
+}
+
+#body{
+  padding: 0 10px 20px;
+  height: 1000px;
+}
+
+hr{
+  color: rebeccapurple;
+}
+
+nav{
+  text-align: center;
+  border-bottom: 2px solid green;
+  padding: 10px;
+  margin-right: 2px;
+  margin-bottom: 15px;
+  background-color: thistle;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+/* Keep above this line */
+
+.para:not(.graph){
+  background-color: black;
+  display: none;
+} 
+
+.blue {color: blue;}
+
+.red {color: red;}
+.purple {color: purple;}
+
+.color:not(.red):not(.purple){
+  color: green;
+}
