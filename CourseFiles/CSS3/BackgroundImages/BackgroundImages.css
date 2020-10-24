@@ -1,0 +1,130 @@
+body{
+  background-color: bisque;
+  color: black;
+  margin-top: 150px;
+  padding: 0 20px 0px 0;
+}
+
+#body{
+  height: 1000px;
+}
+
+hr{
+  color: rebeccapurple;
+}
+
+nav{
+  text-align: center;
+  margin: 0 8px 0 8px;
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: thistle;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+/* Keep above this line */
+.round {
+  border-radius: 50%;
+}
+
+/* .stone{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border: 2px solid red;
+  border-radius: 50%;
+  background-image: url('../img/peasant.jpeg');
+}
+
+.stone1{
+  display: inline-block;
+  margin-left: 8px;
+  width: 100%;
+  height: 300px;
+  border: 2px solid red;
+  
+  background-image: url('../img/peasant.jpeg');
+} */
+
+/* .stone1{
+  display: inline-block;
+  margin-left: 8px;
+  width: 100%;
+  height: 300px;
+  border: 2px solid red;
+
+  background-size: cover;
+  
+  background-image: url('../img/peasant.jpeg');
+} */
+
+/* .stone1{
+  display: inline-block;
+  margin-left: 8px;
+  width: 100%;
+  height: 300px;
+  border: 2px solid red;
+
+  background-size: contain;
+  
+  background-image: url('../img/peasant.jpeg');
+} */
+
+/* .stone1{
+  display: inline-block;
+  margin-left: 8px;
+  width: 100%;
+  height: 300px;
+  border: 2px solid red;
+
+  background-size: contain;
+  
+  background-image: url('../img/peasant.jpeg');
+  background-repeat: no-repeat;
+} */
+
+/* .stone1{
+  display: inline-block;
+  margin-left: 8px;
+  width: 100px;
+  height: 300px;
+  border: 2px solid red;
+
+  background-size: contain;
+  
+  background-image: url('../img/peasant.jpeg');
+  background-repeat: no-repeat;
+} */
+
+/* .stone1{
+  display: inline-block;
+  margin-left: 8px;
+  width: 100px;
+  height: 300px;
+  border: 2px solid red;
+
+  background-size: 20%;
+  
+  background-image: url('../img/peasant.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+} */
+
+.stone1{
+  display: inline-block;
+  margin-left: 8px;
+  width: 300px;
+  height: 300px;
+  border: 10px solid red;
+
+  background-size: 90% 90%;
+  
+  background-image: url('../img/peasant.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: aqua;
+}
