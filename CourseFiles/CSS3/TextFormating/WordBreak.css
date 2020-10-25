@@ -1,7 +1,6 @@
 body{
   background-color: rgb(226, 189, 143);
   color: black;
-  font-family: 'Roboto', Arial, sans-serif;
   font-size: 1.3rem;
   margin-top: 175px;
   padding: 0 20px 0px 0;
@@ -38,14 +37,9 @@ nav{
 
 /* Keep above this line */
 
-/* .text-area{
-  text-align: justify;
-  text-align-last: center;
-} */
-
 .text-area{
-  text-align: justify;
-  /* text-align-last: center; */
+  width: 220px;
+  margin-bottom: 20px;
+  border: 1px solid green;
+  word-break: break-all;
 }
-
-
