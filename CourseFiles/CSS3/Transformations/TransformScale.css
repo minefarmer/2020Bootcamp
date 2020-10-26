@@ -38,27 +38,21 @@ nav{
 
 /* Keep above this line */
 
-
-.box{
-  display: inline-block;
-  margin-left: 50px;
-  color: whitesmoke;
+ .box{
+  margin-top: 30px;
+  /* above is my addition for my design */
+float: left;
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+  background-color: rgb(121, 26, 26);
   text-align: center;
-  width: 200px;
-  height: 200px;
-  background-color: rgb(95, 38, 38);
+  color: white;
+  margin-right: 15px;
   transition: 1s all ease-out;
-}
+} 
 
-.box:hover{
-  /* transform: rotateZ(180deg)
-             rotateY(180deg)
-             rotateZ(180deg);
-  background-color: blue;
-   */
-   /* transform: skew(-30deg) skewY(-30deg); */
-   /* transform: scale(1.1); */
-   /* transform: scaleX(2); */
-   transform: translateX(50px) translateY(50px);
-   background-color: blue;
-}
+.scale:hover{
+  transform: scale(1.2);
+  background-color: gold;
+} 
