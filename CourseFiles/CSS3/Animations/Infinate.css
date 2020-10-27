@@ -13,7 +13,6 @@ body{
 hr{
   color: rebeccapurple;
   margin-bottom: 20px;
-  width: 50%;
 }
 
 nav{
@@ -39,21 +38,43 @@ nav{
 
 /* Keep above this line */
 
+@keyframes blinkingAnimation {
+  0%{ /* 1st second */
+    opacity: 1;
+  }
 
+  50%{
+    opacity: 0;
+    text-align: center;
+  }
+
+  100%{
+    opacity: 1;
+    text-align: right;
+  }
+  
+}
 
 .box{
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 75px;
-  height: 75px;
+  margin: 0 auto;
+  width: 150px;
+  height: 158px;
   border: 1px solid yellow;
   background-color: aquamarine;
 
   animation-name: blinkingAnimation;
-  animation-duration: 10s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 2s;
+  animation-iteration-count: infinite;
 }
 
+.count-4{
+  animation-iteration-count: 4;
+  text-align: left;
+}
 
+.count-6{
+  animation-iteration-count: 6;
+  text-align: center;
+}
