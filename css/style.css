@@ -12,6 +12,7 @@ body{
 
 footer{
   text-align: center;
+  font-weight: bold;
   margin-right: -17px ;
   border: 2px solid green;
   border-radius: 10px;
@@ -31,6 +32,7 @@ hr{
 
 nav{
   text-align: center;
+  font-weight: bold;
   margin: 0 8px 0 8px;
   border: 2px solid green;
   border-radius: 10px;
@@ -53,20 +55,9 @@ nav{
 /* Keep above this line */
 
 
-
-.box{
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 75px;
-  height: 75px;
-  border: 1px solid yellow;
-  background-color: aquamarine;
-
-  animation-name: blinkingAnimation;
-  animation-duration: 10s;
-  animation-fill-mode: forwards;
-  animation-delay: 2s;
+#col{
+  text-align: justify;
+  columns: 3;
 }
 
 
