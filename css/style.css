@@ -53,20 +53,14 @@ nav{
 /* Keep above this line */
 
 
-
 .box{
-  position: fixed;
   left: 0;
   top: 0;
+  margin-bottom: 25px;
   width: 75px;
   height: 75px;
   border: 1px solid yellow;
   background-color: aquamarine;
-
-  animation-name: blinkingAnimation;
-  animation-duration: 10s;
-  animation-fill-mode: forwards;
-  animation-delay: 2s;
 }
 
 
