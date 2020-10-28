@@ -54,21 +54,8 @@ nav{
 
 /* Keep above this line */
 
-.box1, .box2{
-  border: 1px solid red;
-  margin-bottom: 30px;
-  width: 300px;
+
+textarea{
+  resize: none;
+  height: 200px;
 }
-
-.box1{
-  box-sizing: content-box; /* default */
-  padding: 20px;
-}
-
-.box2{  
-  box-sizing: border-box;
-  width: 300px;
-  padding: 20px;
-}
-
-
