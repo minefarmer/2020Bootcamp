@@ -1,10 +1,10 @@
-body{
+/* body{
   background-color: rgb(226, 189, 143);
   color: black;
   font-family: 'Roboto', Arial, sans-serif;
   margin-top: 150px;
   padding: 0 20px 0px 0;
-}
+} */
 
 #body{
   height: 1000px;
@@ -54,25 +54,24 @@ nav{
 
 /* Keep above this line */
 
-.flex{
+body{
+  margin: 150px;
+  padding: 0;
+  background-color: rgb(226, 189, 143);
+  background: linear-gradient(to bottom);
+  height: 100%;
+}
+
+.row{
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  align-content: space-between;
-
-  background-color: rgb(100, 150, 100);
-  height: 500px;
+  flex-wrap: wrap;
+  margin: 10px;
 }
 
-.col{
-  flex-basis: 26%;
+.col-75{
+  border: 1px solid blue;
+  flex-basis: 75%;
+  flex-grow: 0;
   flex-shrink: 0;
-  display: flex;
-
-  text-align: center;
-  background-color: rgb(105, 39, 39);
-  color: white;
-  border: 2px solid white;
-  height: 50px;
 }
-
