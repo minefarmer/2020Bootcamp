@@ -30,8 +30,6 @@ hr{
   width: 50%;
 }
 
-main{ border: 3px solid greenyellow;}
-
 nav{
   text-align: center;
   font-weight: bold;
@@ -55,6 +53,17 @@ nav{
 }
 
 /* Keep above this line */
-/* Lesson coding be low this line */
 
+.big-box{
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
 
+  width: 300px;
+  height: 300px;
+  margin: 50px auto 0;
+  background-color: rgb(128, 46, 46);
+  color: white;
+  text-align: center;
+}

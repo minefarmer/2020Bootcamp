@@ -30,8 +30,6 @@ hr{
   width: 50%;
 }
 
-main{ border: 3px solid greenyellow;}
-
 nav{
   text-align: center;
   font-weight: bold;
@@ -55,6 +53,26 @@ nav{
 }
 
 /* Keep above this line */
-/* Lesson coding be low this line */
 
+.flex{
+  display: flex;
+  background-color: rgb(100, 150, 100);
+  border: 1px solid blue;
+  height: 300px;
+  align-items: flex-start;
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-items: stretch; /* for this to work I need to remove 'height' in .col */
+}
 
+.col{
+  flex-basis: 20%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  text-align: center;
+  background-color: rgb(105, 39, 39);
+  color: white;
+  border: 2px solid rgb(100, 150, 100);
+  height: 200px;
+}

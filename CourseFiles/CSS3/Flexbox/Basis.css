@@ -30,8 +30,6 @@ hr{
   width: 50%;
 }
 
-main{ border: 3px solid greenyellow;}
-
 nav{
   text-align: center;
   font-weight: bold;
@@ -55,6 +53,31 @@ nav{
 }
 
 /* Keep above this line */
-/* Lesson coding be low this line */
 
+.row{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
 
+.col{
+  border: 1px solid blue;
+  flex-basis: 100%;
+}
+
+.col1{
+  flex-basis: 50%;
+}
+
+.col2{
+  flex-basis: 25%;
+  flex-grow: 1;
+}
+
+.col3{
+  flex-basis: 75%;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+/* flex-basis == width */

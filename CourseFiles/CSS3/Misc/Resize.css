@@ -30,8 +30,6 @@ hr{
   width: 50%;
 }
 
-main{ border: 3px solid greenyellow;}
-
 nav{
   text-align: center;
   font-weight: bold;
@@ -55,6 +53,9 @@ nav{
 }
 
 /* Keep above this line */
-/* Lesson coding be low this line */
 
 
+textarea{
+  resize: none;
+  height: 200px;
+}
