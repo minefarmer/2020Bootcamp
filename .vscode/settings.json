@@ -1,0 +1,5 @@
+{
+    "python.dataScience.jupyterServerURI": "local",
+    "editor.fontSize": 11,
+    "terminal.integrated.fontSize": 11
+}
