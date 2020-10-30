@@ -30,7 +30,9 @@ hr{
   width: 50%;
 }
 
-/* nav{
+main{ border: 3px solid greenyellow;}
+
+nav{
   text-align: center;
   font-weight: bold;
   margin: 0 8px 0 8px;
@@ -42,7 +44,7 @@ hr{
   left: 0;
   top: 0;
   right: 0;
-} */
+}
 
 .shadows{
   background-color: darkgoldenrod;
@@ -53,56 +55,6 @@ hr{
 }
 
 /* Keep above this line */
+/* Lesson coding be low this line */
 
-.nav{
-  display: flex;
-  width: 100%;
-  background-color: white;
-  border: 2px solid #ccc;
-  box-sizing: border-box;
-  padding: 10px 20px;
-  margin-bottom: 40px;
-}
 
-.brand{
-  text-decoration: none;
-  color: #000;
-  font-size: 20px;
-  font-weight: bold;
-  border: 1px solid red;
-  flex-basis: 200px;
-  flex-grow: 1;
-  flex-shrink: 0;
-}
-
-.nav-buttons{
-  text-align: right;
-  flex-basis: 50%;
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-
-.nav-buttons a{
-  text-decoration: none;
-  color: #000;
-  font-size: 15px;
-  display: inline-block;
-}
-
-.body{
-  display: flex;
-  margin-bottom: ;
-}
-
-.left-column,
-.center-column,
-.right-column{
-  border: 1px solid red;
-  flex: 1 1 33%;
-  margin: 0 20px;
-}
-
-.center-column{
-  flex-basis: 50%;
-  flex-shrink: 0;
-}
