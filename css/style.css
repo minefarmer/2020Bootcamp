@@ -137,7 +137,7 @@ body {
         border: 20px solid wheat;
     }
 
-    /* .left-column,
+    .left-column,
     .center-column,
     .right-column {
         flex-basis: 100%;
@@ -158,5 +158,5 @@ body {
 
     .right-column {
         display: none;
-    } */
+    }
 }
