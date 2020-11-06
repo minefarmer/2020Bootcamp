@@ -18,7 +18,7 @@ footer {
     border-radius: 10px;
     padding: 10px;
     background-color: aliceblue;
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     top: 0;
     right: 0;
@@ -28,6 +28,10 @@ hr {
     color: rebeccapurple;
     margin-bottom: 20px;
     width: 50%;
+}
+
+main {
+    border: 3px solid greenyellow;
 }
 
 nav {
@@ -53,4 +57,7 @@ nav {
 }
 
 
-/* Keep above this line  */
+/* Keep above this line */
+
+
+/* Lesson coding be low this line */

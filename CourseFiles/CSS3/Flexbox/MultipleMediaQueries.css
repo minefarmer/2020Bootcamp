@@ -1,4 +1,4 @@
-                                /* body{
+                                    /* body{
   background-color: rgb(226, 189, 143);
   color: black;
   font-family: 'Roboto', Arial, sans-serif;
@@ -52,174 +52,174 @@ nav{
   box-shadow: 5px 5px 30px rgba(3, 88, 94, 0.966);
 }
                                 */
-                            /* Keep above this line  */
-                            
-                            body {
-                                margin: 0;
-                                padding: 0;
-                                background: linear-gradient(to bottom, rgb(226, 189, 143), #fff);
-                                height: 1000px;
-                            }
-                            
-                            .nav {
-                                display: flex;
-                                width: 100%;
-                                background-color: white;
-                                border-bottom: 2px solid green;
-                                box-sizing: border-box;
-                                padding: 10px 20px;
-                                margin-bottom: 40px;
-                            }
-                            
-                            .brand {
-                                text-decoration: none;
-                                color: #000;
-                                font-size: 20px;
-                                font-weight: bold;
-                                border: 1px solid red;
-                                flex-basis: 200px;
-                                flex-grow: 1;
-                                flex-shrink: 0;
-                            }
-                            
-                            .nav-buttons {
-                                text-align: right;
-                                flex-basis: 50%;
-                                flex-grow: 1;
-                                flex-shrink: 1;
-                            }
-                            
-                            .nav-buttons a {
-                                text-decoration: none;
-                                color: #000;
-                                padding-left: 0;
-                                font-size: 15px;
-                                display: inline-block;
-                            }
-                            
-                            .body {
-                                display: flex;
-                                flex-grow: 0;
-                                margin-bottom: 10px;
-                            }
-                            
-                            .left-column,
-                            .center-column,
-                            .right-column {
-                                border: 1px solid red;
-                                flex: 1 1 33%;
-                                padding: 0 20px;
-                            }
-                            
-                            .center-column {
-                                flex-basis: 50%;
-                                flex-shrink: 0;
-                            }
-                            
-                            .footer {
-                                display: flex;
-                                background-color: #111;
-                                justify-content: space-around;
-                                color: white;
-                                padding: 50%;
-                            }
-                            
-                            .footer div {
-                                flex-basis: 25%;
-                                border: 1px solid rgb(142, 142, 223);
-                            }
-                            
-                            .left-column a {
-                                display: block;
-                                border: 1px solid red;
-                                padding: 5px 0;
-                                text-decoration: none;
-                                color: black;
-                            }
-                            
-                            .right-column {
-                                display: block;
-                                height: 200px;
-                                background-color: #ccc;
-                                border: 1px solid #aaa;
-                                margin-bottom: 10px;
-                            }
-                            /* Media query */
-                            
-                            @media(max-width: 768px) {
-                                .body,
-                                .footer {
-                                    flex-wrap: wrap;
+                                /* Keep above this line  */
+                                
+                                body {
+                                    margin: 0;
+                                    padding: 0;
+                                    background: linear-gradient(to bottom, rgb(226, 189, 143), #fff);
+                                    height: 1000px;
                                 }
-                                .footer div {
+                                
+                                .nav {
+                                    display: flex;
+                                    width: 100%;
+                                    background-color: white;
+                                    border-bottom: 2px solid green;
+                                    box-sizing: border-box;
+                                    padding: 10px 20px;
+                                    margin-bottom: 40px;
+                                }
+                                
+                                .brand {
+                                    text-decoration: none;
+                                    color: #000;
+                                    font-size: 20px;
+                                    font-weight: bold;
+                                    border: 1px solid red;
+                                    flex-basis: 200px;
+                                    flex-grow: 1;
+                                    flex-shrink: 0;
+                                }
+                                
+                                .nav-buttons {
+                                    text-align: right;
+                                    flex-basis: 50%;
+                                    flex-grow: 1;
+                                    flex-shrink: 1;
+                                }
+                                
+                                .nav-buttons a {
+                                    text-decoration: none;
+                                    color: #000;
+                                    padding-left: 0;
+                                    font-size: 15px;
+                                    display: inline-block;
+                                }
+                                
+                                .body {
+                                    display: flex;
+                                    flex-grow: 0;
+                                    margin-bottom: 10px;
+                                }
+                                
+                                .left-column,
+                                .center-column,
+                                .right-column {
+                                    border: 1px solid red;
+                                    flex: 1 1 33%;
+                                    padding: 0 20px;
+                                }
+                                
+                                .center-column {
                                     flex-basis: 50%;
                                     flex-shrink: 0;
-                                    flex-grow: 0;
-                                    border: 1px solid rgb(8, 8, 141);
-                                    margin-bottom: 10px;
                                 }
-                                .left-column,
-                                .center-column,
-                                .right-column {
-                                    flex-basis: 100%;
-                                    flex-shrink: 0;
+                                
+                                .footer {
+                                    display: flex;
+                                    background-color: #111;
+                                    justify-content: space-around;
+                                    color: white;
+                                    padding: 50%;
                                 }
-                                .center-column {
-                                    order: 1;
-                                }
-                                .left-column {
-                                    order: 2;
-                                }
-                                .right-column {
-                                    order: 3;
-                                }
-                                .right-column {
-                                    display: none;
-                                }
-                            }
-                            
-                            @media(max-width: 425px) {
-                                .left-column,
-                                .center-column,
-                                .right-column {
-                                    margin-bottom: 10px;
-                                    padding: 10px 0;
-                                }
+                                
                                 .footer div {
-                                    flex-basis: 100%;
-                                    flex-shrink: 0;
-                                    flex-grow: 0;
-                                    margin-bottom: 10px;
-                                    padding: 10px 20px;
-                                    border: 0;
-                                    text-align: center;
+                                    flex-basis: 25%;
+                                    border: 1px solid rgb(142, 142, 223);
                                 }
-                            }
-                            
-                            @media print {
-                                .nav,
-                                .footer,
-                                .left-column,
+                                
+                                .left-column a {
+                                    display: block;
+                                    border: 1px solid red;
+                                    padding: 5px 0;
+                                    text-decoration: none;
+                                    color: black;
+                                }
+                                
                                 .right-column {
-                                    display: none;
+                                    display: block;
+                                    height: 200px;
+                                    background-color: #ccc;
+                                    border: 1px solid #aaa;
+                                    margin-bottom: 10px;
                                 }
-                                .center-column {
-                                    border: 0;
+                                /* Media query */
+                                
+                                @media(max-width: 768px) {
+                                    .body,
+                                    .footer {
+                                        flex-wrap: wrap;
+                                    }
+                                    .footer div {
+                                        flex-basis: 50%;
+                                        flex-shrink: 0;
+                                        flex-grow: 0;
+                                        border: 1px solid rgb(8, 8, 141);
+                                        margin-bottom: 10px;
+                                    }
+                                    .left-column,
+                                    .center-column,
+                                    .right-column {
+                                        flex-basis: 100%;
+                                        flex-shrink: 0;
+                                    }
+                                    .center-column {
+                                        order: 1;
+                                    }
+                                    .left-column {
+                                        order: 2;
+                                    }
+                                    .right-column {
+                                        order: 3;
+                                    }
+                                    .right-column {
+                                        display: none;
+                                    }
                                 }
-                            }
-                            
-                            .blue {
-                                background-color: blue;
-                                padding: 20px;
-                            }
-                            
-                            @media(min-width: 600px) and (max-width: 1000px) {
+                                
+                                @media(max-width: 425px) {
+                                    .left-column,
+                                    .center-column,
+                                    .right-column {
+                                        margin-bottom: 10px;
+                                        padding: 10px 0;
+                                    }
+                                    .footer div {
+                                        flex-basis: 100%;
+                                        flex-shrink: 0;
+                                        flex-grow: 0;
+                                        margin-bottom: 10px;
+                                        padding: 10px 20px;
+                                        border: 0;
+                                        text-align: center;
+                                    }
+                                }
+                                
+                                @media print {
+                                    .nav,
+                                    .footer,
+                                    .left-column,
+                                    .right-column {
+                                        display: none;
+                                    }
+                                    .center-column {
+                                        border: 0;
+                                    }
+                                }
+                                
                                 .blue {
-                                    background-color: transparent;
+                                    background-color: blue;
+                                    padding: 20px;
                                 }
-                                /* below does the reverse of the above */
-                                /* @media(min-width: 600px) and (max-width: 1000px) {
+                                
+                                @media(min-width: 600px) and (max-width: 1000px) {
+                                    .blue {
+                                        background-color: transparent;
+                                    }
+                                    /* below does the reverse of the above */
+                                    /* @media(min-width: 600px) and (max-width: 1000px) {
             .blue {
                 background-color: transparent;
             }
-        } */
+        }
